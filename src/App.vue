@@ -13,7 +13,6 @@ import navComponent from './components/navComponent.vue'
       <HelloWorld msg="You did it!" />
     </div>
   </body>
-
   <RouterView />
 </template>
 
