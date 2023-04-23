@@ -1,45 +1,50 @@
 <template lang="">
+       
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     
-    <div class="topnav">
-        <a class="active" href="#home">Home</a>
+    <div class="topnav" id="myTopnav">
+       
+        <a href="#home" class="active">
+            <img alt="Dragon" class="logo" src="@/assets/logotransparent.png" width="100" height="100"/>
+        </a>
         <a href="#news">News</a>
         <a href="#contact">Contact</a>
         <a href="#about">About</a>
     </div>
-    
 </template>
 
 <script>
 
-export default {
-    
-}
+    export default {
+        
+    }
 </script>
 <style>
-    .topnav {
-  background-color: #333;
+.topnav {
   overflow: hidden;
 }
 
-/* Style the links inside the navigation bar */
 .topnav a {
   float: left;
-  color: #f2f2f2;
+  display: block;
+  color: #04BBBA;
   text-align: center;
-  padding: 14px 16px;
+  padding: 1% 10%;
   text-decoration: none;
   font-size: 17px;
 }
 
-/* Change the color of links on hover */
 .topnav a:hover {
-  background-color: #ddd;
-  color: black;
+  background-color: #B79370;
+  color: #04BBBA;
 }
 
-/* Add a color to the active/current link */
-.topnav a.active {
-  background-color: #04AA6D;
-  color: white;
+.topnav a.active.logo {
+  color: #B79370;
+  position: absolute;
+}
+
+.topnav logo {
+  color: #B79370;
 }
 </style>
